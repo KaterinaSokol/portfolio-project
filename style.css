@@ -1,0 +1,12 @@
+h1{ 
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+}
+p{
+    font-family: 'Gloria Hallelujah', cursive;
+    display: flex;
+    justify-content: center;
+}
+
