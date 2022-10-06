@@ -25,6 +25,9 @@ h1{
 h2{
     font-size: 62px;
 }
+h4{
+    font-size: 48px;
+}
 p{
     font-family: var(--default-font-family);
     font-weight: normal;
@@ -104,6 +107,9 @@ p{
     h2{
         font-size: 44px;
     }
+    h4{
+        font-size: 26px;
+    }
     .hero{
         padding: 80px 20px;
     }
@@ -145,4 +151,36 @@ nav a{
 }
 nav a:hover, nav li.active{
     color: var(--branding-color)
+}
+footer .email-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+footer .email-link:hover{
+    color: var(--branding-color);
+}
+footer .social-link a{
+    margin: 0 20px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+footer .social-link a{
+    color: white;
+    background: var(--branding-color);
+}
+footer .contact-box{
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+footer .contact-box p{
+    margin: 0;
+}
+footer{
+    margin: 60px 0;
 }
